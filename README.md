@@ -1,10 +1,12 @@
 Basic Staff Application is a private project. Is can display, add, delete, find, update information staffs in a company. It contains 3 pages: Staffs, Departments and Salary.
+
 REQUIREMENTS
 - Chrome 58: Jan 2017
 - Edge 14: Aug 2016
 - Firefox 54: Mar 2017
 - Safari 10: Jul 2016
 - Opera 55: Aug 2018
+
 INSTALLATION
 - "bootstrap": "4.0.0",
 - "bootstrap-icons": "^1.8.1",
@@ -29,6 +31,7 @@ INSTALLATION
 - "redux-logger": "3.0.6",
 - "redux-thunk": "2.2.0",
 - "web-vitals": "^1.1.2"
+
 RESOURCES
 - w3schools.com
 - youtube
