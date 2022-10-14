@@ -47,11 +47,11 @@ class StaffList extends Component {
     this.state = {
       nameF: "",
     };
-    this.timNhanvien = this.timNhanvien.bind(this);
+    this.findStaff = this.findStaff.bind(this);
   }
 
   /* Hàm tìm kiếm từ khóa tên nhân viên và render ra kết quả tìm kiếm nhân viên  */
-  timNhanvien(event) {
+  findStaff(event) {
     const nameS = event.target.nameS.value;
     event.preventDefault();
     this.setState({ nameF: nameS });
@@ -91,7 +91,7 @@ class StaffList extends Component {
             </div>
           </div>
           <div className="col-12 col-md-6 mt-3">
-            <form onSubmit={this.timNhanvien} className="form-group row">
+            <form onSubmit={this.findStaff} className="form-group row">
               <div className="col-8 col-md-8">
                 <input
                   type="text"

@@ -75,7 +75,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <input
-                class="form-control"
+                className="form-control"
                 name="name"
                 value={this.state.staff.name}
                 onChange={(e) =>
@@ -93,7 +93,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <input
-                class="form-control"
+                className="form-control"
                 type="date"
                 name="doB"
                 value={this.state.staff.doB}
@@ -111,7 +111,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <input
-                class="form-control"
+                className="form-control"
                 type="date"
                 name="startDate"
                 value={this.state.staff.startDate}
@@ -129,7 +129,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <input
-                class="form-control"
+                className="form-control"
                 name="salaryScale"
                 value={this.state.staff.salaryScale}
                 onChange={(e) =>
@@ -146,7 +146,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <select
-                class="form-control"
+                className="form-control"
                 name="departmentId"
                 value={this.state.staff.departmentId}
                 onChange={(e) =>
@@ -172,7 +172,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <input
-                class="form-control"
+                className="form-control"
                 name="annualLeave"
                 value={this.state.staff.annualLeave}
                 onChange={(e) =>
@@ -189,7 +189,7 @@ class EditForm extends Component {
             </Col>
             <Col md={8}>
               <input
-                class="form-control"
+                className="form-control"
                 name="overTime"
                 value={this.state.staff.overTime}
                 onChange={(e) =>

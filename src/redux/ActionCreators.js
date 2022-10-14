@@ -36,12 +36,11 @@ export const addStaff = (staff) => (dispatch) => {
     .then((response) => response.json())
     .then((response) => dispatch(addStaffSuccess(response)))
     .catch((error) => {
-      console.log("Post staffs", error.message);
       alert("Your staff could not be posted\nError: " + error.message);
     });
 };
 
-// DELETE
+// DELETE STAFF
 export const deleteStaffSuccess = (id) => ({
   type: ActionTypes.DELETE_STAFF_SUCCESS,
   payload: id,
@@ -59,7 +58,7 @@ export const deleteStaff = (id) => (dispatch) => {
   } else return;
 };
 
-//UPDATE
+//UPDATE STAFF
 export const updateStaffSuccess = (staff) => ({
   type: ActionTypes.UPDATE_STAFFS_SUCCESS,
   payload: staff,
@@ -93,7 +92,6 @@ export const updateStaff = (staff) => (dispatch) => {
     .then((response) => response.json())
     .then((response) => dispatch(updateStaffSuccess(response)))
     .catch((error) => {
-      console.log("Updated staffs", error.message);
       alert("Your staff could not be updated\nError: " + error.message);
     });
 };

@@ -12,7 +12,7 @@ import {
 const luongCB = 3000000;
 const luongGio = 200000;
 
-function RenderSalary({ salary }) {
+const RenderSalary = ({ salary }) => {
   return (
     <Card>
       <CardTitle className="p-3 bg-white rounded m-2">{salary.name}</CardTitle>
@@ -29,13 +29,13 @@ function RenderSalary({ salary }) {
       </CardBody>
     </Card>
   );
-}
+};
 
 const Salary = (props) => {
-  const salary = props.salary.map((ss) => {
+  const salary = props.salary.map((item) => {
     return (
-      <div className="col-12 col-md-6 col-lg-4 mt-2 mb-2" key={ss.id}>
-        <RenderSalary salary={ss} />
+      <div className="col-12 col-md-6 col-lg-4 mt-2 mb-2" key={item.id}>
+        <RenderSalary salary={item} />
       </div>
     );
   });

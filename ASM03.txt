@@ -1,3 +1,0 @@
-Repository: https://github.com/NgocTan12345k/ReactJs-App.git
-Branch ASM3 cơ bản: RJS101x_Assignment3_coban_tanbnfx15317@funix.edu.vn
-Branch ASM3 nâng cao: RJS101x_Assignment3_nangcao_tanbnfx15317@funix.edu.vn
